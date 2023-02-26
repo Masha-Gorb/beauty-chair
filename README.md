@@ -1,0 +1,2 @@
+# Beauty Chair
+Simple landing
