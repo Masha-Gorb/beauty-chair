@@ -9,73 +9,97 @@
 
 <header>
     <div class="container">
-        <nav class="header__navigation">
-            <ul>
-                <li>Доставка</li>
-                <li>Оплата</li>
-                <li>Отзывы</li>
-                <li>Вопрос-ответ</li>
-                <li>Контакты</li>
-            </ul>
-        </nav>
 
+        <div class="header__content">
+            <nav class="header__navigation">
+                <ul>
+                    <li>Доставка</li>
+                    <li>Оплата</li>
+                    <li>Отзывы</li>
+                    <li>Вопрос-ответ</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </div>
         <div class="header__bottom">
             <img src="" alt="Логотип компании Beauty"/>
-            <span>8 (812) 123-45-67</span>
-            <button>Обратный звонок</button>
+            <div class="back-call">
+                <span>8 (812) 123-45-67</span>
+                <button>Обратный звонок</button>
+            </div>
         </div>
+
     </div>
 </header>
+
 <section class="categories">
     <div class="container">
-        <ul class="categories__list">
-            <li>Парикхмахерская</li>
-            <li>Барбершоп</li>
-            <li>Маникюр</li>
-            <li>Педикюр</li>
-            <li>Массаж</li>
-            <li>Мебель</li>
-        </ul>
+        <div class="categories__content">
+            <ul class="categories__list">
+                <li>Парикхмахерская</li>
+                <li>Барбершоп</li>
+                <li>Маникюр</li>
+                <li>Педикюр</li>
+                <li>Массаж</li>
+                <li>Мебель</li>
+            </ul>
+        </div>
     </div>
 </section>
+
+<!--картинку сделать отдельными дивками-->
 <section class="sale">
     <div class="container">
         <div class="sale__content">
-            <h1>Супер кресло</h1>
-            <span>Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</span>
+            <h1 class="sale__title">Супер кресло</h1>
+            <div class="sale__descr">
+                <p>Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+            </div>
             <button>Подробнее</button>
+            <img src="./img/sale_chair.png" alt="Изображение кресла"/>
         </div>
     </div>
 </section>
+
+<!--не забыть вставить машинку-->
 <section class="special-offer">
     <div class="container">
-        <h2>Специальное предложение</h2>
-        <ul class="special-offer__list">
-            <li>карточка 1</li>
-            <li>карточка 2</li>
-            <li>карточка 3</li>
-            <li>карточка 4</li>
-        </ul>
-    </div>
-</section>
-<section class="cta">
-    <div class="container">
-        <div class="cta__bonus">
-            <h3>Получайте бонусы и подарки</h3>
-            <span>Каждый месяц разыгрываем 10 000 рублей для наших клиентов</span>
-            <label>
-                <input type="text" placeholder="Введите email"/>
-            </label>
-            <img src="" alt="иконка письма"/>
+        <div class="special-offer__content">
+            <h2>Специальное предложение</h2>
+            <div class="special-offer__list">
+                <div>карточка 1</div>
+                <div>карточка 2</div>
+                <div>карточка 3</div>
+                <div>карточка 4</div>
+            </div>
         </div>
 
-        <div class="cta__store-map">
-            <h3>Заходите к нам</h3>
-            <span>Более 300 магазинов по всей России</span>
-            <button>Карта магазинов</button>
-        </div>
     </div>
 </section>
+
+<!--поделить контент на две колонки-->
+<section class="cta">
+    <div class="container">
+        <div class="cta__wrapper">
+            <div class="cta__bonus">
+                <h3>Получайте бонусы и подарки</h3>
+                <span>Каждый месяц разыгрываем 10 000 рублей для наших клиентов</span>
+                <label>
+                    <input type="text" placeholder="Введите email"/>
+                </label>
+                <img src="" alt="иконка письма"/>
+            </div>
+
+            <div class="cta__store-map">
+                <h3>Заходите к нам</h3>
+                <span>Более 300 магазинов по всей России</span>
+                <button>Карта магазинов</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <footer>
     <div class="container">
         <div class="footer__top">
@@ -87,8 +111,10 @@
             </ul>
 
             <span>198555, Невский пр. 140, офис 140</span>
-            <span>8 (812) 123-45-67</span>
-            <button>Обратный звонок</button>
+            <div class="back-call">
+                <span>8 (812) 123-45-67</span>
+                <button>Обратный звонок</button>
+            </div>
 
         </div>
         <div class="footer__bottom">
