@@ -8,24 +8,27 @@
 <body>
 
 <header>
-    <div class="container">
-
+    <div class="container__header">
         <div class="header__content">
             <nav class="header__navigation">
                 <ul>
-                    <li>Доставка</li>
-                    <li>Оплата</li>
-                    <li>Отзывы</li>
-                    <li>Вопрос-ответ</li>
-                    <li>Контакты</li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Оплата</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Вопрос-ответ</a></li>
+                    <li><a href="">Контакты</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header__bottom">
-            <img src="" alt="Логотип компании Beauty"/>
+            <div class="header__logo">
+                <img src="asserts/logo_symbol.svg" alt="Логотип компании Beauty"/>
+                <img src="asserts/logo_BEAUTY.svg" alt="Логотип компании Beauty"/>
+            </div>
+
             <div class="back-call">
                 <span>8 (812) 123-45-67</span>
-                <button>Обратный звонок</button>
+                <button><a>Обратный звонок</a></button>
             </div>
         </div>
 
@@ -36,44 +39,73 @@
     <div class="container">
         <div class="categories__content">
             <ul class="categories__list">
-                <li>Парикхмахерская</li>
-                <li>Барбершоп</li>
-                <li>Маникюр</li>
-                <li>Педикюр</li>
-                <li>Массаж</li>
-                <li>Мебель</li>
+                <li><a href="">Парикхмахерская</a></li>
+                <li><a href="">Барбершоп</a></li>
+                <li><a href="">Маникюр</a></li>
+                <li><a href="">Педикюр</a></li>
+                <li><a href="">Массаж</a></li>
+                <li><a href="">Мебель</a></li>
             </ul>
         </div>
     </div>
 </section>
 
-<!--картинку сделать отдельными дивками-->
+
 <section class="sale">
-    <div class="container">
+    <div class="sale__container">
         <div class="sale__content">
-            <h1 class="sale__title">Супер кресло</h1>
-            <div class="sale__descr">
-                <p>Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+
+            <div class="sale__text">
+                <h1 class="sale__title">Супер кресло</h1>
+                <div class="sale__descr">
+                    <p>Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+                </div>
+                <button>Подробнее</button>
             </div>
-            <button>Подробнее</button>
             <img src="./img/sale_chair.png" alt="Изображение кресла"/>
+
         </div>
     </div>
 </section>
 
 <!--не забыть вставить машинку-->
 <section class="special-offer">
-    <div class="container">
-        <div class="special-offer__content">
-            <h2>Специальное предложение</h2>
-            <div class="special-offer__list">
-                <div>карточка 1</div>
-                <div>карточка 2</div>
-                <div>карточка 3</div>
-                <div>карточка 4</div>
-            </div>
-        </div>
-
+    <div class="special-offer__content">
+        <h2>Специальное предложение</h2>
+        <ul class="special-offer__list">
+            <li>
+                <div class="special-offer__item">
+                    <img src="img/special_offer.jpg" alt="chair special offer" class="special-offer__img">
+                    <p class="special-offer__dscrp">Парикмахерское кресло «Норм» гидравлическое</p>
+                    <p class="special-offer__price">9 900 P</p>
+                    <button>Купить</button>
+                </div>
+            </li>
+            <li>
+                <div class="special-offer__item">
+                    <img src="img/special_offer.jpg" alt="chair special offer" class="special-offer__img">
+                    <p class="special-offer__dscrp">Парикмахерское кресло «Норм» гидравлическое</p>
+                    <p class="special-offer__price">9 900 P</p>
+                    <button>Купить</button>
+                </div>
+            </li>
+            <li>
+                <div class="special-offer__item">
+                    <img src="img/special_offer.jpg" alt="chair special offer" class="special-offer__img">
+                    <p class="special-offer__dscrp">Парикмахерское кресло «Норм» гидравлическое</p>
+                    <p class="special-offer__price">9 900 P</p>
+                    <button>Купить</button>
+                </div>
+            </li>
+            <li>
+                <div class="special-offer__item">
+                    <img src="img/special_offer.jpg" alt="chair special offer" class="special-offer__img">
+                    <p class="special-offer__dscrp">Парикмахерское кресло «Норм» гидравлическое</p>
+                    <p class="special-offer__price">9 900 P</p>
+                    <button>Купить</button>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
 
