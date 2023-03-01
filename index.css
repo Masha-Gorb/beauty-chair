@@ -517,10 +517,25 @@ body {
 }
 
 @media (max-width: 450px){
-
+    body {
+        overflow-x: hidden;
+    }
     .logo__text {
         display: none;
     }
+
+    .sale__content img {
+        position: relative;
+        right: 810px;
+    }
+
+    .special-offer__top {
+        margin-left: 30px;
+    }
+    .special-offer__car {
+        display: none;
+    }
+
 
     .cta__wrapper div{
         width: 300px;
