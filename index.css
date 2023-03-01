@@ -479,6 +479,12 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .special-offer__top {
+        margin-left: 90px;
+    }
+    .special-offer__car {
+        display: none;
+    }
 
     .special-offer__content {
         height: 1650px;
